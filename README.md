@@ -29,5 +29,10 @@ Online rooms in the web, phone, and PC builds need this repo's GD-Sync keys (the
 - **Linux:** on the [Releases page](https://github.com/acetousk/lantern-deep/releases), download `lantern-deep-<version>-linux-x86_64.tar.gz`. Unpack it and run the game.
 - Mac and iPhone: use the web version.
 
+## Help and feedback
+
+- Questions and known problems: [FAQ.md](FAQ.md).
+- Found a bug, or have an idea? [Report it here](https://github.com/acetousk/lantern-deep/issues/new/choose). Do not write your real name, age, school, or where you live.
+
 ## Credits
 See [CREDITS.md](CREDITS.md).
