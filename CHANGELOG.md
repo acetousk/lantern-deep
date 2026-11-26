@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.1.5 — 2026-11-26
+
+- Added: the Android version. Install it with Obtainium.
+
 ## v0.1.4 — 2026-11-26
 
 - Fixed: the web version goes live (the web page was not set up yet).
