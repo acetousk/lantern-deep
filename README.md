@@ -20,11 +20,14 @@ A 2D turn-based cave crawler for 1–4 players, made with Godot 4.7.2.
 
 ## Co-op
 Pick **Host a room** and tell your friends the 4-digit code. They pick **Join a room** and type it in. The host presses Start.
-(For now co-op works in 2 windows on 1 computer. Online co-op comes later.)
+Online rooms in the web, phone, and PC builds need this repo's GD-Sync keys (the kit's `online` skill). Until then, rooms work only inside Godot (2 windows, local mode).
 
-## Install
-- **Web:** play in the browser on the GitHub Pages link of this repo.
-- **Windows / Linux / Android:** download from the [Releases page](https://github.com/acetousk/lantern-deep/releases). On Android, open the `.apk` (you may need to allow installs from your browser).
+## Play
+- **Web:** https://acetousk.github.io/lantern-deep/ (Chrome, Firefox, or Edge). Old version? Press Ctrl+Shift+R.
+- **Android:** install **Obtainium**, tap **Add app**, and paste `https://github.com/acetousk/lantern-deep`. Obtainium shows each update.
+- **Windows:** on the [Releases page](https://github.com/acetousk/lantern-deep/releases), download `lantern-deep-<version>-windows.zip`. Unzip it and run the game. (Windows may warn about an unknown app: click "More info" → "Run anyway".)
+- **Linux:** on the [Releases page](https://github.com/acetousk/lantern-deep/releases), download `lantern-deep-<version>-linux-x86_64.tar.gz`. Unpack it and run the game.
+- Mac and iPhone: use the web version.
 
 ## Credits
 See [CREDITS.md](CREDITS.md).
