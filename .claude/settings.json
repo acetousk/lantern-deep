@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(godot --version)",
+      "Bash(godot --headless:*)",
+      "Bash(git status)",
+      "Bash(git remote -v)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git tag --sort:*)",
+      "Bash(python tools/*)",
+      "Bash(python3 tools/*)",
+      "Bash(py tools/*)"
+    ],
+    "ask": [
+      "Bash(git push:*)",
+      "Bash(git tag v:*)",
+      "Bash(git reset:*)",
+      "Bash(git checkout:*)"
+    ],
+    "deny": [
+      "Edit(.github/**)",
+      "Edit(.claude/**)",
+      "Edit(export_presets.cfg)",
+      "Read(**/*.keystore)",
+      "Read(**/*.b64)",
+      "Read(export_credentials.cfg)"
+    ],
+    "defaultMode": "plan"
+  }
+}

@@ -1,0 +1,76 @@
+; Engine configuration file.
+config_version=5
+
+[application]
+
+config/name="Lantern Deep"
+config/version="0.0.1"
+run/main_scene="res://scenes/menu.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[autoload]
+
+GDSync="*res://addons/GD-Sync/MultiplayerClient.gd"
+
+Tune="*res://scripts/tune.gd"
+
+Net="*res://scripts/net.gd"
+
+Sfx="*res://scripts/sfx.gd"
+
+[display]
+
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[input]
+
+move_up={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"device":-1,"physical_keycode":4194320), Object(InputEventKey,"device":-1,"physical_keycode":87), Object(InputEventJoypadButton,"device":-1,"button_index":11)]
+}
+move_down={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"device":-1,"physical_keycode":4194322), Object(InputEventKey,"device":-1,"physical_keycode":83), Object(InputEventJoypadButton,"device":-1,"button_index":12)]
+}
+move_left={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"device":-1,"physical_keycode":4194319), Object(InputEventKey,"device":-1,"physical_keycode":65), Object(InputEventJoypadButton,"device":-1,"button_index":13)]
+}
+move_right={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"device":-1,"physical_keycode":4194321), Object(InputEventKey,"device":-1,"physical_keycode":68), Object(InputEventJoypadButton,"device":-1,"button_index":14)]
+}
+wait={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"device":-1,"physical_keycode":32), Object(InputEventJoypadButton,"device":-1,"button_index":0)]
+}
+drink_1={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"device":-1,"physical_keycode":49)]
+}
+drink_2={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"device":-1,"physical_keycode":50)]
+}
+drink_3={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"device":-1,"physical_keycode":51)]
+}
+drink_4={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"device":-1,"physical_keycode":52)]
+}
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
+textures/canvas_textures/default_texture_filter=0
+environment/defaults/default_clear_color=Color(0.101961, 0.0784314, 0.0627451, 1)
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/GD-Sync/plugin.cfg")

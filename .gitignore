@@ -1,0 +1,17 @@
+# Godot
+.godot/
+*.import.tmp
+export_credentials.cfg
+
+# Builds
+build/
+dist/
+
+# Secrets — never commit
+*.keystore
+*.jks
+*.b64
+.env
+
+# GD-Sync API keys. Never commit these.
+addons/GD-Sync/keys.cfg
