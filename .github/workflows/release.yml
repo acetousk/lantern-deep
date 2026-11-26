@@ -67,7 +67,7 @@ jobs:
         run: godot --headless --import || true
 
       - name: Export ${{ matrix.preset }}
-        env:   # GD-Sync puts these keys into the build (empty = local mode only)
+        env:   # GD-Sync adds these keys to the build. No keys = no online play.
           GDSYNC_PUBLIC_KEY: ${{ secrets.GDSYNC_PUBLIC_KEY }}
           GDSYNC_PRIVATE_KEY: ${{ secrets.GDSYNC_PRIVATE_KEY }}
         run: |

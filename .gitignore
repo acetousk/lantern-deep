@@ -12,6 +12,4 @@ dist/
 *.jks
 *.b64
 .env
-
-# GD-Sync API keys. Never commit these.
 addons/GD-Sync/keys.cfg
