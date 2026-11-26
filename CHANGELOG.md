@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.1.3 — 2026-11-26
+
+- Added: a FAQ page and forms to report a bug, an idea, or a question.
+- Fixed: the web and PC versions now come out even when the Android version can't be built.
+
 ## v0.1.2 (2026-11-25)
 - Fix: the web link and downloads use online co-op (browsers can't do local mode). Until the GD-Sync key is set up, Host and Join say "Online co-op isn't ready yet" instead of "error 2". Godot's F5 still uses local mode for 2-window tests.
 
